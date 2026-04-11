@@ -1,12 +1,104 @@
-# React + Vite
+# Velvet Pour - Mojito Cocktail Bar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="https://img.shields.io/badge/Velvet%20Pour-Mojito%20Bar-0d1117?style=for-the-badge&logo=react&logoColor=white&color=black" alt="badge"/>
+  <br><br>
+  
+  <br><br>
+  <sub>🍹 Cool. Crisp. Classic. Sip the Spirit of Summer 🍹</sub>
+</div>
 
-Currently, two official plugins are available:
+## 🌟 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Live Preview](https://img.shields.io/badge/Deployed-Online-brightgreen)](https://mojito-cocktails.onrender.com)
 
-## Expanding the ESLint configuration
+<iframe src="https://mojito-cocktails.onrender.com" width="100%" height="500px" frameborder="0"></iframe>
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 About the Project
+
+**Velvet Pour** is an elegant, immersive single-page website for a premium Mojito cocktail bar. Featuring smooth GSAP animations, a captivating hero video background, interactive menu sliders, responsive design, and atmospheric effects like noise overlays, radial gradients, and masked elements.
+
+Perfect for showcasing cocktails with style – from hero pours to artful mixes.
+
+## ✨ Features
+
+- 🎥 **Hero Section**: Pinned video background with GSAP text reveals, parallax leaves, responsive subtitle.
+- 🍸 **Cocktails**: Popular & loved lists (Shiraz, Malbee, Guinness + mocktails).
+- ℹ️ **About**: Team profiles, features (balanced blends, garnished perfection), stats.
+- 🎨 **The Art**: Masked cocktail imagery with overlay content.
+- 📱 **Menu**: Tabbed slider (Mojito variants: Classic, Raspberry, Violet Breeze, Curacao) with recipes/details.
+- 📍 **Contact**: Store info (456 Raq Blvd, LA), hours, social links.
+- ⚡ **Animations**: GSAP ScrollTrigger, SplitText, timeline scrubs, navbar blur.
+- 📱 **Responsive**: Mobile-first, react-responsive.
+- 🌿 **Effects**: Custom leaves, noise.png, radial gradients, masked images.
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React-19-blue?style=flat&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-6-green?style=flat&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-blue?style=flat&logo=tailwind&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-3-green?style=flat&logo=greensock&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-9-orange?style=flat&logo=eslint&logoColor=white)
+
+</div>
+
+**Key Libs:**
+- `@gsap/react`, `gsap` (ScrollTrigger, SplitText)
+- `@tailwindcss/vite`, `tailwindcss`
+- `react-responsive`
+- Custom fonts: Modern Negra, Mona Sans, DM Serif Text
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+
+
+### Installation
+```bash
+npm install
+```
+
+### Development
+```bash
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173)
+
+### Build
+```bash
+npm run build
+```
+Output in `dist/`.
+
+### Preview
+```bash
+npm run preview
+```
+
+### Lint
+```bash
+npm run lint
+```
+
+## 📁 Project Structure
+
+```
+Mojito/
+├── public/          # Assets: images/, videos/, fonts/
+├── src/
+│   ├── components/  # Navbar, Hero, Cocktails, About, Art, Menu, Contact
+│   ├── constants/   # Data: nav, menus, store info
+│   ├── App.jsx      # Router/layout
+│   ├── main.jsx
+│   └── index.css    # Tailwind + custom
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+⭐ **Built with ❤️ using React + Vite + Tailwind + GSAP**  
+**Velvet Pour** – Where every sip tells a story.
