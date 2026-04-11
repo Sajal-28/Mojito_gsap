@@ -5,14 +5,14 @@
   <br><br>
   
   <br><br>
-  <sub>🍹 Cool. Crisp. Classic. Sip the Spirit of Summer 🍹</sub>
+<strong>🍹 Cool. Crisp. Classic. Sip the Spirit of Summer 🍹</strong>
 </div>
 
 ## 🌟 Live Preview
 
-[![Live Preview](https://img.shields.io/badge/Deployed-Online-brightgreen)](https://mojito-cocktails.onrender.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-brightgreen?logo=vercel&logoColor=white)](https://mojito-cocktails.onrender.com)
 
-<iframe src="https://mojito-cocktails.onrender.com" width="100%" height="500px" frameborder="0"></iframe>
+**View Live:** https://mojito-cocktails.onrender.com
 
 ## 📖 About the Project
 
